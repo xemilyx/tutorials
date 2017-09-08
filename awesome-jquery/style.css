@@ -1,3 +1,9 @@
 .blue {
     background: lightblue;
 }
+
+#block {
+    background:lightgreen;
+    width:100px;
+    border: 1px solid green;
+}

@@ -8,7 +8,6 @@ $(function() {
             console.log("You hovered on the paragraph!")
              }
         });
-    });
     
     $("h3").on("click", function() {
         console.log("You clicked on the heading!");
@@ -33,9 +32,28 @@ $(function() {
         $(this).addClass("blue");
     });
     
-    $("button").click(function() {
+    $("#stop").click(function() {
         $("h3").stop();
         console.log("stop!");
     });
     
     //there are two h3 functions, so click on the button twice to stop the second one.
+    
+    //$("#go").click(function() {
+        //$("#block").animate({
+            //opacity:.5,
+            //marginLeft: "+=50",
+            //height: "400px"
+        //}, 3000, function(){
+            //$(this).after("<div>The animation is complete.</div>");
+        //});
+    //});
+    
+    $("#go").click(function() {
+        $("#block")
+        .animate({ width: "90%" }, 1000)
+        .animate({ fontSize: "40px" }, 1000)
+        .animate({ borderLeftWidth: "30px" }, 1000)
+    });
+    
+});
