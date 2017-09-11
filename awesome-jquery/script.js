@@ -11,6 +11,16 @@ $(function() {
         $("#name").val("Emily Suon")
     });
     
+    $('.target')
+        .append('<div class="child">Append</div>')
+        .prepend('<div class="child">Prepend</div>')
+        .before('<div class="sibling">Before</div>')
+        .after('<div class="sibling">After</div>');
+    
+    //$('.target').remove();)
+    //$('.target').empty();
+    $('li').remove('.filter');
+    
     $("p").on(
         {
         "click": function() {

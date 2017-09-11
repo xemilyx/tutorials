@@ -11,3 +11,16 @@ div {
     width:100px;
     border: 1px solid green;
 }
+
+.child {
+    background:yellow;
+}
+
+.sibling {
+    background:pink;
+}
+
+.target {
+    border: 1px solid green;
+    background:lightgreen;
+}
