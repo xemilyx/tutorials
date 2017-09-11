@@ -1,4 +1,16 @@
 $(function() {
+    
+    $("#btn").click(function() {
+        console.log($("#unicorns").attr("href"));
+        //console.log("unicorns");
+    });
+    $("#btn2").click(function() {
+        $("#test").html("Unicorns are <b>awesome</b>!")
+    });
+    $("#btn3").click(function() {
+        $("#name").val("Emily Suon")
+    });
+    
     $("p").on(
         {
         "click": function() {
