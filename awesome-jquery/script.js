@@ -1,5 +1,10 @@
 $(function() {
     
+    $('.version7-button').click(function () {
+        $('p').toggleClass('version7-paragraph');
+    })
+    
+    
     $("#btn").click(function() {
         console.log($("#unicorns").attr("href"));
         //console.log("unicorns");

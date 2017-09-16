@@ -24,3 +24,7 @@ div {
     border: 1px solid green;
     background:lightgreen;
 }
+
+.version7-paragraph {
+    font-size:24px;
+}
