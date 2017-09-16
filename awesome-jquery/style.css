@@ -1,30 +1,36 @@
 div {
-    margin:20px 0px 20px 0px;
+    border: solid;
+    padding: 10px;
 }
 
-.blue {
-    background: lightblue;
+span {
+    border: solid;
+    padding: 10px;
+    background-color: tan;
 }
 
-#block {
-    background:lightgreen;
-    width:100px;
-    border: 1px solid green;
+ul {
+    border: solid;
+    padding: 10px;
 }
 
-.child {
-    background:yellow;
+li {
+    border: solid;
+    padding: 10px;
+    background-color:gray;
 }
 
-.sibling {
-    background:pink;
+p {
+    border: solid;
+    padding: 10px;
 }
 
-.target {
-    border: 1px solid green;
-    background:lightgreen;
+h2 {
+    border: solid;
+    padding: 10px;
 }
 
-.version7-paragraph {
-    font-size:24px;
+h3 {
+    border: solid;
+    padding: 10px;
 }
