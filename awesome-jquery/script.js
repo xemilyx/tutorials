@@ -1,11 +1,16 @@
-$(function() {
-    
-    //$('span').children("h2").css({"color":"chocolate", "border":"2px solid chocolate"});
-    
-    //$("ul").find("p").css({"color":"chocolate", "border":"2px solid chocolate"});
-    
-    $("span.child").nextUntil("p").css({"color":"chocolate", "border":"2px solid chocolate"});
-    
-    $("span.child").prev().css({"color":"chocolate", "border":"2px solid chocolate"});
-    
-});
+function loadDoc() {
+    // $('#demo').load("https://cors-anywhere.herokuapp.com/http://carnes.cc/code/ajax_example.txt", 
+    //     function(responseTxt, statusTxt, xhr) {
+    //         console.log(statusTxt);
+    //         if(statusTxt == "success") {
+    //             alert("External content loaded successfully!")
+    //         }
+    //         if(statusTxt == "error") {
+    //             alert("Error: " + xhr.status + ": " + xhr.statusText)
+    //         }
+    //     });
+    $.get("https://cors-anywhere.herokuapp.com/http://carnes.cc/code/ajax_example.txt", 
+        function(data, status) {
+            console.log("Data: " + data + "\nStatus: " + status);
+    });
+}
